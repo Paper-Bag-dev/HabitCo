@@ -5,8 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily : {
+      'montserrat' : ['Montserrat']
+    },
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 
 }

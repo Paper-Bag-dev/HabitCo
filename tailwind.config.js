@@ -1,6 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 export default {
   content: [
     "./index.html",
@@ -8,7 +6,7 @@ export default {
   ],
   theme: {
     fontFamily : {
-      'montserrat' : ['"Montserrat"', ...defaultTheme.fontFamily.montserrat]
+      'montserrat' : ['Montserrat']
     },
     extend: {},
   },

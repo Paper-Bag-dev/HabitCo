@@ -76,6 +76,7 @@ const TodoList = () => {
 
   const AddFreqToCalendar = async (countOfTrues) => {
     try {
+      console.log(countOfTrues);
       await axios.put(`${server}/calendar/AddFreq/${countOfTrues}`, {}, {
         withCredentials: true
       })
@@ -96,6 +97,7 @@ const TodoList = () => {
         setTodos(res.data.tasks);
         const arrayOfIscomplete = res.data.tasks.map((item) => item.isCompleted === true);
         const countOfTrues = arrayOfIscomplete.reduce((count, isComplete) => count + (isComplete ? 1 : 0), 0);
+        console.log(countOfTrues);
         AddFreqToCalendar(countOfTrues);
       })
       .catch((e) => {

@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     fontFamily : {
-      'montserrat' : ['Montserrat']
+      'montserrat' : ['"Montserrat"', ...defaultTheme.fontFamily.montserrat]
     },
     extend: {},
   },

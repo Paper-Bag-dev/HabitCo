@@ -15,7 +15,7 @@ HabitCo is a **habit-tracking application** that helps users build and maintain 
 - Customizable categories for different types of habits (Health, Learning, Productivity, etc.).  
 
 ### 📊 State & Progress Management  
-- Track habits with states: **Completed ✅ | Skipped ⏳ | Failed ❌**.  
+- Track habits with states: **Completed ✅ | Incomplete ❌**.  
 - Get **streak tracking & insights** to analyze progress over time.  
 
 ### 🧠 AI-Powered Sentiment Analysis (Planned)  
